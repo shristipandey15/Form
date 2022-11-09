@@ -1,0 +1,27 @@
+.container{
+    background-color:darkkhaki;
+    height:100vh;
+}
+ img{
+ width:200px;
+padding:10px;
+ box-shadow: 5px 10px 8px #8888;
+ transition: width 2s, height 4s;
+}
+img:hover{
+    width: 300px;
+    height: 300px;
+}
+.box{
+   
+    font-size:20px;
+     width:200px;
+    border-radius:8px;
+    padding:10px;
+    background-color:#86824C ;
+    color:white;
+}
+.box :hover{
+    color: rgb(11, 46, 11);
+    cursor: pointer;
+}
