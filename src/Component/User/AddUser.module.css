@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+.input{
+    margin:2rem auto;
+    padding:1rem;
+    width:90%;
+    max-width:40rem;
+   
+   
+}
+ label {
+    display:block;
+    font-weight:bold;
+    margin-bottom:0.5rem;
+    color:black;
+   
+}
+input{
+    font:inherit;
+    display:block;
+    width:50%;
+   padding:0.15rem;
+}
+form{
+    padding:2rem;
+    background:white;
+    width:50%;
+    border-radius: 8px;
+    margin:auto;
+}
+button{
+    font:inherit;
+    border:2px solid purple;
+    background:purple;
+    color:white;
+    padding:0.25rem 1rem;
+    cursor:pointer;
+}
+button:hover,
+button:active{
+    background:#741188;
+    border-color: #741188;
+}
+button:focus{
+    outline:none;
+}

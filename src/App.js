@@ -1,9 +1,12 @@
-import React from 'react'
-import Pokedex from './Pokeman/Pokedex'
+import React,{useState} from 'react'
+import AddUser from './Component/User/AddUser'
+
+
 function App() {
+
   return (
     <div>
-        <Pokedex/>
+<AddUser/>
     </div>
   )
 }
